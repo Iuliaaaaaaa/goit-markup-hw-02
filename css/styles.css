@@ -1,6 +1,9 @@
 
 :root {
---logo-color: #4d5ae5;
+--text-color: #4d5ae5;
+--span-color: #2e2f42;
+--link-list-color: #2e2f42;
+
 }
 
 body { font-family:"Roboto",sans-serif;
@@ -15,8 +18,25 @@ body { font-family:"Roboto",sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--text-color);
     }
 
     .link {
         text-decoration: none
+    }
+
+    span {
+    color: var(--span-color);
+    }
+
+    .list {
+        list-style: none;
+    }
+
+    .link-list{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--link-list-color);
     }
