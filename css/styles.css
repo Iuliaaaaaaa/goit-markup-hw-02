@@ -1,6 +1,6 @@
 
 :root {
-
+--logo-color: #4d5ae5;
 }
 
 body { font-family:"Roboto",sans-serif;
@@ -15,4 +15,8 @@ body { font-family:"Roboto",sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    }
+
+    .link {
+        text-decoration: none
     }
