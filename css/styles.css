@@ -21,7 +21,10 @@ body { font-family:"Roboto",sans-serif;
     color: var(--text-color);
     }
 
-  
+  .link {
+    text-decoration: none;
+    text-decoration:none;
+  }
 
     span {
     color: var(--span-color);
