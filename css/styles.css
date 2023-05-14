@@ -3,6 +3,7 @@
 --text-color: #4d5ae5;
 --span-color: #2e2f42;
 --link-list-color: #2e2f42;
+--address-color: #434455;
 
 }
 
@@ -42,7 +43,12 @@ body { font-family:"Roboto",sans-serif;
         color: var(--link-list-color);
     }
 
-    .addresa {
+    .address {
         font-style: normal;
-        
+    }
+
+    .address-item{
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+         color: var(--address-color) ;
     }
