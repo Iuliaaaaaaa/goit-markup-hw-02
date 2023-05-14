@@ -52,3 +52,14 @@ body { font-family:"Roboto",sans-serif;
         letter-spacing: 0.02em;
          color: var(--address-color) ;
     }
+
+    .link-list:hover,
+    .link-list:focus {
+       color:  #404bbf;
+    }
+
+      .address-item:hover,
+      .address-item:focus {
+        color: #404bbf;
+
+    }
