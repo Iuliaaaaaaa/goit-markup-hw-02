@@ -150,5 +150,8 @@ body {
 
     .studio {
       color: #f4f4fd;
-      
+    }
+
+    .web {
+      color: var(--span-color);
     }
