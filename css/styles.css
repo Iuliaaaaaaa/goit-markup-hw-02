@@ -186,4 +186,12 @@ body {
       letter-spacing: 0.02em;
       color: var(--link-list-color);
     }
+    
+    .image-text{
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--address-color);
+
+    }
 
