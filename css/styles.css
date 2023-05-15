@@ -5,6 +5,8 @@
 --link-list-color: #2e2f42;
 --address-color: #434455;
 --solutions: #2e2f42;
+--button:  #F4F4FD;
+
 
 }
 
@@ -155,3 +157,26 @@ body {
     .web {
       color: var(--span-color);
     }
+
+    .button-item {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: var(--text-color);
+      background-color: var(--button);
+      cursor: pointer;
+    }
+
+    .button-item:hover {
+      color:#FFFFFF ;
+      background-color: #404BBF;
+    }
+
+    .button-item:focus {
+      color:#FFFFFF ;
+      background-color: #404BBF;
+
+    }
+
